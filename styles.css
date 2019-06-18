@@ -30,7 +30,6 @@ body {
 .memory-card:active {
     transform: scale(.80);
     transition: transform .5s;
-    /* Git Test */
 }
 
 .front-face,
