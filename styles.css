@@ -10,12 +10,37 @@ body {
     background: rgb(89, 0, 255);
 }
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 200px;
+    
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 200px;
+    
+}
+
 .memory-game /* Container */ {
     width: 640px;
     height: 640px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    perspective: 1000px;
 }
 
 .memory-card {
@@ -24,13 +49,17 @@ body {
     margin: 5px;
     position: relative;
     transform: scale(1);
-    
+    transform-style: preserve-3d;
+    transition: transform .8s;
 }
 
 .memory-card:active {
-    transform: scale(.80);
+    transform: scale(.90);
     transition: transform .5s;
-    /* Git Test */
+}
+
+.memory-card.flip {
+    transform: rotateX(180deg);
 }
 
 .front-face,
@@ -41,5 +70,17 @@ body {
     border-radius: 5px;
     background: rgba(47, 0, 255, 0.178);
     position: absolute;
+    backface-visibility: hidden;
 }
 
+.front-face {
+    transform: rotateX(180deg);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;;
+}
