@@ -65,6 +65,7 @@ h2 {
     border-radius: 5px;
     background: rgba(47, 0, 255, 0.178);
     position: absolute;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
 
