@@ -34,7 +34,7 @@ function unflipCards() {
         secondCard.classList.remove('flip');
         lockBoard = false;
         resetBoard();
-    }, 1500);
+    }, 500);
 }
 function resetBoard() {
     [hasFlippedCard, lockBoard] = [false, false];
