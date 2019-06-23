@@ -14,6 +14,7 @@ The user is guided fluidly to operate the game through the header & footer eleme
 The JavaScript code also has an application of UX using objects & arrays such as ```setTimeout``` & ```lockBoard```. These were created with intention of helping the user stay within the parameters of the games intended functionality. ```setTimeout``` provides a slight delay when cards aren't correctly matched, whilst ```lockBoard``` prevents user from selecting multiple cards on the canvas.
 
 ### Feeback
+**Feedback taken from CI Slack forum & mentor Antonija Simic**
 
 ### First version
 
