@@ -22,7 +22,7 @@ The JavaScript code also has an application of UX using objects & arrays such as
 * Body was un-responsive at mobile-device width - Media queries were yet to be implemented.
 * Card colour was "difficult to differientiate" - This was due to the close colour codes of the body background & card background.
 
-**Feedback taken from CI Slack forum & mentor Antonija Simic**
+### **Feedback taken from CI Slack forum & mentor Antonija Simic**
 
 ### Final version
 * Card sizing issue - ```object-fit : contain;``` was implemented to correct this.
