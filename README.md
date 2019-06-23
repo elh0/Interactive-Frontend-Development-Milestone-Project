@@ -11,10 +11,10 @@ This project will utilise my experience of **HTML5**, **CSS3** & **JS**.
 
 The user is guided fluidly to operate the game through the header & footer elements. This is common practice for users to find more information about the webpage so these are natural interactions therefore creating a familar feeling. I was intent on using enough negative space for the user to focus on the game in practice & leave no distracting/unecessary elements on the webpage.
 
-The JavaScript code also has an application of UX using objects & arrays such as ```setTimeout``` & ```lockBoard``` 
+The JavaScript code also has an application of UX using objects & arrays such as ```setTimeout``` & ```lockBoard```. These were created with intention of helping the user stay within the parameters of the games intended functionality. ```setTimeout``` provides a slight delay when cards aren't correctly matched, whilst ```lockBoard``` prevents user from selecting multiple cards on the canvas.
+
+### [Wireframes](https://www.figma.com/file/019CbRh9rL3j3STQzXtMKjHj/Interactive-frontend-Memory-game-wireframes?node-id=0%3A1)
 
 ### Deployment
 
 ### [View Site](https://elh0.github.io/Interactive-Frontend-Development-Milestone-Project/)
-
-### [Wireframes](https://www.figma.com/file/019CbRh9rL3j3STQzXtMKjHj/Interactive-frontend-Memory-game-wireframes?node-id=0%3A1)
