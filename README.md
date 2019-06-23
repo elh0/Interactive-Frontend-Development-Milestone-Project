@@ -19,16 +19,22 @@ The JavaScript code also has an application of UX using objects & arrays such as
 ### First version
 
 * Sizing of cards on mobile were illegible - Container was scaling down as opposed to containing.
+
 * ```setTimeout``` felt "slow & clunky to play" - ```setTimeout``` was set to ```1000``` causing a slow response feel.
+
 * Body was un-responsive at mobile-device width - Media queries were yet to be implemented.
+
 * Card colour was "difficult to differientiate" - This was due to the close colour codes of the body background & card background.
 
 ### **Feedback taken from CI Slack forum & mentor Antonija Simic**
 
 ### Final version
 * Card sizing issue - ```object-fit : contain;``` was implemented to correct this.
+
 * Slow response time issue - ```setTimeout``` was reduced to ```500``` from ```1000```.
+
 * Responsiveness issue - Media queries were implemented at mobile & tablet view.
+
 * Card readability - Colour palette was corrected by using deeper shades to distinguish body elements.
 
 ### [Wireframes](https://www.figma.com/file/019CbRh9rL3j3STQzXtMKjHj/Interactive-frontend-Memory-game-wireframes?node-id=0%3A1)
