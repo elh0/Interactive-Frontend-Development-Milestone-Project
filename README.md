@@ -1,4 +1,4 @@
-# Interactive-Frontend-Development-Milestone-Project
+# Interactive Frontend Development Milestone Project
 
 ## Currently in development phase
 
