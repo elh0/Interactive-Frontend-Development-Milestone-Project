@@ -14,7 +14,7 @@ The user is guided fluidly to operate the game through the header & footer eleme
 The JavaScript code also has an application of UX using objects & arrays such as ```setTimeout``` & ```lockBoard```. These were created with intention of helping the user stay within the parameters of the games intended functionality. ```setTimeout``` provides a slight delay when cards aren't correctly matched, whilst ```lockBoard``` prevents user from selecting multiple cards on the canvas.
 
 ### Feeback
-**Feedback taken from CI Slack forum & mentor Antonija Simic**
+*Feedback taken from CI Slack forum & mentor Antonija Simic*
 
 ### First version
 
@@ -67,6 +67,10 @@ The JavaScript code also has an application of UX using objects & arrays such as
 
 * **CSS3** - To style the webpage.
 
+* **Adobe Illustrator** - SVG creation.
+
+* **Figma** - Wireframe creation.
+
 ## Testing
 
 * Tested on **Chrome**
@@ -75,6 +79,41 @@ The JavaScript code also has an application of UX using objects & arrays such as
 
 * Tested on **Firefox**
 
+## Validation
+
+* HTML & CSS Validated with [W3C](https://validator.w3.org)
+* JS Validated with [JsHint](https://jshint.com/)
+
 ### Deployment
 
 ### [View Site](https://elh0.github.io/Interactive-Frontend-Development-Milestone-Project/)
+
+## Credits 
+
+* Excerpts of JS code was implicated via [YouTube](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=43s) - By freeCodeCamp.org.
+
+* Preloader SVG animation [Loading.io](https://loading.io/) - By loading.io
+
+### Sites Used
+
+* [W3 Schools](https://www.w3schools.com/html/default.asp) 
+
+* [JsHint](https://jshint.com/)
+
+* [CodeInstitute](https://courses.codeinstitute.net)
+
+* [YouTube](https://www.youtube.com/)
+
+* [Stack Overflow](https://stackoverflow.com/)
+
+* [CodePen](https://codepen.io/)
+
+### Fonts 
+
+[Poppins by Google Fonts](https://fonts.google.com/specimen/Poppins)
+
+### Media Credits
+
+* Code Institute [Image Source](https://codeinstitute.net/)
+
+**Thanks for reading!**
