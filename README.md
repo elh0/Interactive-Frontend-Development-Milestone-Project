@@ -121,4 +121,4 @@ The JavaScript code also has an application of UX using functions & variables su
 
 *Feedback taken from CI Slack forum & mentor Antonija Simic*
 
-**Thanks for reading!**
+## **Thanks for reading!**
