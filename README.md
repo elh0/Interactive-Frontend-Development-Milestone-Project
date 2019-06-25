@@ -13,6 +13,16 @@ The user is guided fluidly to operate the game through the header & footer eleme
 
 The JavaScript code also has an application of UX using functions & variables such as ```setTimeout``` & ```lockBoard```. These were created with intention of helping the user stay within the parameters of the games intended functionality. ```setTimeout``` provides a slight delay when cards aren't correctly matched, whilst ```lockBoard``` prevents user from selecting multiple cards on the canvas.
 
+## User stories
+
+* As a new user landing on the page I want clear instructions of what to do upon landing & where to click
+
+* As a new user I want to understand the game objective
+
+* As a new user I would like to be rewarded for completing the objective
+
+* As a new user I would like see relevant/well known images or logos to better understand the game
+
 ### First version
 
 * Sizing of cards on mobile were illegible - Container was scaling down as opposed to containing
@@ -44,11 +54,11 @@ The JavaScript code also has an application of UX using functions & variables su
 
 ### Features Left to Implement 
 
-* Timer.
+* Timer
 
 * Levels/increase difficulty
 
-* Sucess modals to assist with game completion
+* Sucess modals to assist with game completion (leave user satisfied)
 
 * Advanced CSS3 animations
 
@@ -86,6 +96,10 @@ The JavaScript code also has an application of UX using functions & variables su
 * JS Validated with [JsHint](https://jshint.com/)
 
 ## Deployment
+
+To deploy my project I pushed my local respoitry to my GitHub repository named **Interactive-Frontend-Development-Milestone-Project** via the GitHub for desktop. Commits were deployed each time edits were made to my code and I needed to save them. To create my GitHub page I built it from the Master branch.
+
+### [My GitHub](https://github.com/elh0)
 
 ### [View Site](https://elh0.github.io/Interactive-Frontend-Development-Milestone-Project/)
 
