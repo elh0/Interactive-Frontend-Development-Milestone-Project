@@ -1,37 +1,36 @@
 # Interactive Frontend Development Milestone Project
 
-This project was developed from the brief enlisted by Code Institute. I created a flip card memory game, using CI staff members as the playing cards.
+I developed this project from the brief enlisted by Code Institute. I created a flip card memory game, using CI staff members as the playing cards.
 
-The objective of the game is to sucessfully **match all 12 cards**.
+The objective of the game is to **match all 12 cards successfully.**
 
-Within this project I have used everything I learned thus far from Code Institue.
-This project will utilise my experience of **HTML5**, **CSS3** & **JS**.
+Within this project, I have used everything I learned thus far from Code Institue. This project will utilise my experience of **HTML5**, **CSS3** & **JS**.
 
 ## UX
 
-The user is guided fluidly to operate the game through the header & footer elements. This is common practice for users to find more information about the webpage so these are natural interactions therefore creating a familar feeling. I was intent on using enough negative space for the user to focus on the game in practice & leave no distracting/unecessary elements on the webpage.
+The user is guided fluidly to operate the game through the header & footer elements. The header & footer placement is common practice for users to find more information about the webpage so these are natural interactions, therefore, creating a familiar feeling. I was intent on using enough negative space for the user to focus on the game in practice & leave no distracting/unnecessary elements on the webpage.
 
-The JavaScript code also has an application of UX using functions & variables such as ```setTimeout``` & ```lockBoard```. These were created with intention of helping the user stay within the parameters of the games intended functionality. ```setTimeout``` provides a slight delay when cards aren't correctly matched, whilst ```lockBoard``` prevents user from selecting multiple cards on the canvas.
+The JavaScript code also has an application of UX using functions & variables such as ```setTimeout``` & ```lockBoard```. I created these intending to help the user stay within the parameters of the games intended functionality. ```setTimeout``` provides a slight delay when cards aren't correctly matched, while ```lockBoard``` prevents the user from selecting multiple cards on the canvas.
 
 ## User stories
 
-* As a new user landing on the page I want clear instructions of what to do upon landing & where to click
+* As a new user landing on the page, I want clear instructions of what to do upon landing & where to click
 
-* As a new user I want to understand the game objective
+* As a new user, I want to understand the game objective
 
-* As a new user I would like to be rewarded for completing the objective
+* As a new user, I would like to be rewarded for completing the objective
 
-* As a new user I would like see relevant/well known images or logos to better understand the game
+* As a new user, I would like to see relevant/well-known images or logos to understand the game better
 
 ### First version
 
-* Sizing of cards on mobile were illegible - Container was scaling down as opposed to containing
+* Sizing of cards on mobile was illegible - Container was scaling down as opposed to containing
 
 * ```setTimeout``` felt "slow & clunky to play" - ```setTimeout``` was set to ```1000``` causing a slow response feel
 
-* Body was un-responsive at mobile-device width - Media queries were yet to be implemented
+* The body was un-responsive at mobile-device width - Media queries were yet to be implemented
 
-* Card colour was "difficult to differientiate" - This was due to the close colour codes of the body background & card background
+* Card colour was "difficult to differentiate" - This was due to the close colour codes of the body background & card background
 
 ### Final version
 * Card sizing issue - ```object-fit : contain;``` was implemented to correct this
@@ -40,7 +39,7 @@ The JavaScript code also has an application of UX using functions & variables su
 
 * Responsiveness issue - Media queries were implemented at mobile & tablet view
 
-* Card readability - Colour palette was corrected by using deeper shades to distinguish body elements
+* Card readability - Colour palette was corrected by using deeper shades to distinguish body elements.
 
 ### [Wireframes](https://www.figma.com/file/019CbRh9rL3j3STQzXtMKjHj/Interactive-frontend-Memory-game-wireframes?node-id=0%3A1)
 
@@ -97,7 +96,7 @@ The JavaScript code also has an application of UX using functions & variables su
 
 ## Deployment
 
-To deploy my project I pushed my local respoitry to my GitHub repository named **Interactive-Frontend-Development-Milestone-Project** via the GitHub for desktop. Commits were deployed each time edits were made to my code and I needed to save them. To create my GitHub page I built it from the Master branch.
+To deploy my project, I pushed my local repository to my GitHub repository named **Interactive-Frontend-Development-Milestone-Project** via the GitHub for desktop. Commits were deployed each time edits were made to my code, and I needed to save them. To create my GitHub page, I built it from the Master branch.
 
 ### [My GitHub](https://github.com/elh0)
 
@@ -133,6 +132,6 @@ To deploy my project I pushed my local respoitry to my GitHub repository named *
 
 ### Feeback
 
-* *Feedback taken from CI Slack forum & mentor Antonija Simic*
+* *Feedback was taken from CI Slack forum & mentor Antonija Simic*
 
 ## **Thanks for reading!**
