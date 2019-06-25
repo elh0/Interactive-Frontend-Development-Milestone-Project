@@ -85,7 +85,7 @@ The JavaScript code also has an application of UX using functions & variables su
 * HTML & CSS Validated with [W3C](https://validator.w3.org)
 * JS Validated with [JsHint](https://jshint.com/)
 
-### Deployment
+## Deployment
 
 ### [View Site](https://elh0.github.io/Interactive-Frontend-Development-Milestone-Project/)
 
@@ -111,7 +111,7 @@ The JavaScript code also has an application of UX using functions & variables su
 
 ### Fonts 
 
-[Poppins by Google Fonts](https://fonts.google.com/specimen/Poppins)
+* [Poppins by Google Fonts](https://fonts.google.com/specimen/Poppins)
 
 ### Media Credits
 
@@ -119,6 +119,6 @@ The JavaScript code also has an application of UX using functions & variables su
 
 ### Feeback
 
-*Feedback taken from CI Slack forum & mentor Antonija Simic*
+* *Feedback taken from CI Slack forum & mentor Antonija Simic*
 
 ## **Thanks for reading!**
